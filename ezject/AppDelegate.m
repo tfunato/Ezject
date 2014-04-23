@@ -35,7 +35,6 @@
 
 - (void) fileNotifications
 {
-    NSLog(@"\n I like fileNotifications.");
     //These notifications are filed on NSWorkspace's notification center, not the default
     // notification center. You will not receive sleep/wake notifications if you file
     //with the default notification center.
@@ -49,7 +48,6 @@
 }
 - (void) receiveSleepNote: (NSNotification*) note
 {
-    NSLog(@"\n I like sleep.");
 
     NSTask *task  = [[NSTask alloc] init];
     NSPipe *pipe  = [[NSPipe alloc] init];
@@ -68,13 +66,6 @@
 
 - (void) receiveWakeNote: (NSNotification*) note
 {
-    NSLog(@"\n I like awake.");
-    
-    NSUserNotification *notification = [[NSUserNotification alloc] init];
-    notification.title = @"Awake!";
-    notification.informativeText = @"Awake is now.";
-    [[NSUserNotificationCenter defaultUserNotificationCenter] deliverNotification:notification];
-
 
     NSTask *task  = [[NSTask alloc] init];
     NSPipe *pipe  = [[NSPipe alloc] init];
@@ -88,8 +79,12 @@
     NSData* data = [[[task standardOutput] fileHandleForReading] readDataToEndOfFile];
     NSString *result = [[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding] stringByTrimmingCharactersInSet:[NSCharacterSet newlineCharacterSet]];
     NSLog(@"%@", result);
-    
-    //NSLog(@"\n I like awake.");
+
+    NSUserNotification *notification = [[NSUserNotification alloc] init];
+    notification.title = @"Awake!";
+    notification.informativeText = result;
+    [[NSUserNotificationCenter defaultUserNotificationCenter] deliverNotification:notification];
+
 }
 @end
 
