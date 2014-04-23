@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0039F82190805DF006A70CE /* app_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0039F81190805DF006A70CE /* app_icon@2x.png */; };
 		C006F9A71907F5FE009C14E1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C036C7A51907C7FE002E8AB9 /* MainMenu.xib */; };
 		C036C7911907C7FE002E8AB9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C036C7901907C7FE002E8AB9 /* Cocoa.framework */; };
 		C036C79B1907C7FE002E8AB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C036C7991907C7FE002E8AB9 /* InfoPlist.strings */; };
@@ -14,10 +15,11 @@
 		C036C7A11907C7FE002E8AB9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C036C79F1907C7FE002E8AB9 /* Credits.rtf */; };
 		C036C7A41907C7FE002E8AB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C036C7A31907C7FE002E8AB9 /* AppDelegate.m */; };
 		C036C7A91907C7FE002E8AB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C036C7A81907C7FE002E8AB9 /* Images.xcassets */; };
-		C036C7C81907DD94002E8AB9 /* menu_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C036C7C71907DD94002E8AB9 /* menu_icon@2x.png */; };
+		C036C7C81907DD94002E8AB9 /* menu_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C036C7C71907DD94002E8AB9 /* menu_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C0039F81190805DF006A70CE /* app_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_icon@2x.png"; sourceTree = "<group>"; };
 		C036C78D1907C7FE002E8AB9 /* ezject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ezject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C036C7901907C7FE002E8AB9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		C036C7931907C7FE002E8AB9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -33,7 +35,7 @@
 		C036C7A61907C7FE002E8AB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		C036C7A81907C7FE002E8AB9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C036C7AF1907C7FE002E8AB9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		C036C7C71907DD94002E8AB9 /* menu_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_icon@2x.png"; sourceTree = "<group>"; };
+		C036C7C71907DD94002E8AB9 /* menu_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +102,8 @@
 		C036C7971907C7FE002E8AB9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C036C7C71907DD94002E8AB9 /* menu_icon@2x.png */,
+				C0039F81190805DF006A70CE /* app_icon@2x.png */,
+				C036C7C71907DD94002E8AB9 /* menu_icon.png */,
 				C036C7981907C7FE002E8AB9 /* ezject-Info.plist */,
 				C036C7991907C7FE002E8AB9 /* InfoPlist.strings */,
 				C036C79C1907C7FE002E8AB9 /* main.m */,
@@ -164,10 +167,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C006F9A71907F5FE009C14E1 /* MainMenu.xib in Resources */,
+				C0039F82190805DF006A70CE /* app_icon@2x.png in Resources */,
 				C036C79B1907C7FE002E8AB9 /* InfoPlist.strings in Resources */,
 				C036C7A91907C7FE002E8AB9 /* Images.xcassets in Resources */,
 				C036C7A11907C7FE002E8AB9 /* Credits.rtf in Resources */,
-				C036C7C81907DD94002E8AB9 /* menu_icon@2x.png in Resources */,
+				C036C7C81907DD94002E8AB9 /* menu_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
