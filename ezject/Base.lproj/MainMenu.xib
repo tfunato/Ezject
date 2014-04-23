@@ -19,6 +19,12 @@
                         <action selector="terminate:" target="-3" id="KI0-re-yZG"/>
                     </connections>
                 </menuItem>
+                <menuItem title="About Ezject..." id="TxI-Kq-Tz4">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="orderFrontStandardAboutPanel:" target="-2" id="nIT-rH-qbL"/>
+                    </connections>
+                </menuItem>
             </items>
         </menu>
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate">

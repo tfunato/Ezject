@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C036C78C1907C7FE002E8AB9"
-               BuildableName = "ezject.app"
-               BlueprintName = "ezject"
-               ReferencedContainer = "container:ezject.xcodeproj">
+               BuildableName = "Ezject.app"
+               BlueprintName = "Ezject"
+               ReferencedContainer = "container:Ezject.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "C036C7AD1907C7FE002E8AB9"
                BuildableName = "ezjectTests.xctest"
                BlueprintName = "ezjectTests"
-               ReferencedContainer = "container:ezject.xcodeproj">
+               ReferencedContainer = "container:Ezject.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C036C78C1907C7FE002E8AB9"
-            BuildableName = "ezject.app"
-            BlueprintName = "ezject"
-            ReferencedContainer = "container:ezject.xcodeproj">
+            BuildableName = "Ezject.app"
+            BlueprintName = "Ezject"
+            ReferencedContainer = "container:Ezject.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C036C78C1907C7FE002E8AB9"
-            BuildableName = "ezject.app"
-            BlueprintName = "ezject"
-            ReferencedContainer = "container:ezject.xcodeproj">
+            BuildableName = "Ezject.app"
+            BlueprintName = "Ezject"
+            ReferencedContainer = "container:Ezject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C036C78C1907C7FE002E8AB9"
-            BuildableName = "ezject.app"
-            BlueprintName = "ezject"
-            ReferencedContainer = "container:ezject.xcodeproj">
+            BuildableName = "Ezject.app"
+            BlueprintName = "Ezject"
+            ReferencedContainer = "container:Ezject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

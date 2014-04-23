@@ -20,15 +20,15 @@
 
 /* Begin PBXFileReference section */
 		C0039F81190805DF006A70CE /* app_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_icon@2x.png"; sourceTree = "<group>"; };
-		C036C78D1907C7FE002E8AB9 /* ezject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ezject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C036C78D1907C7FE002E8AB9 /* Ezject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ezject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C036C7901907C7FE002E8AB9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		C036C7931907C7FE002E8AB9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		C036C7941907C7FE002E8AB9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C036C7951907C7FE002E8AB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C036C7981907C7FE002E8AB9 /* ezject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ezject-Info.plist"; sourceTree = "<group>"; };
+		C036C7981907C7FE002E8AB9 /* Ezject.Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ezject.Info.plist"; sourceTree = "<group>"; };
 		C036C79A1907C7FE002E8AB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C036C79C1907C7FE002E8AB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C036C79E1907C7FE002E8AB9 /* ezject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ezject-Prefix.pch"; sourceTree = "<group>"; };
+		C036C79E1907C7FE002E8AB9 /* Ezject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ezject-Prefix.pch"; sourceTree = "<group>"; };
 		C036C7A01907C7FE002E8AB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		C036C7A21907C7FE002E8AB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C036C7A31907C7FE002E8AB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		C036C78E1907C7FE002E8AB9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C036C78D1907C7FE002E8AB9 /* ezject.app */,
+				C036C78D1907C7FE002E8AB9 /* Ezject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,10 +104,10 @@
 			children = (
 				C0039F81190805DF006A70CE /* app_icon@2x.png */,
 				C036C7C71907DD94002E8AB9 /* menu_icon.png */,
-				C036C7981907C7FE002E8AB9 /* ezject-Info.plist */,
+				C036C7981907C7FE002E8AB9 /* Ezject.Info.plist */,
 				C036C7991907C7FE002E8AB9 /* InfoPlist.strings */,
 				C036C79C1907C7FE002E8AB9 /* main.m */,
-				C036C79E1907C7FE002E8AB9 /* ezject-Prefix.pch */,
+				C036C79E1907C7FE002E8AB9 /* Ezject-Prefix.pch */,
 				C036C79F1907C7FE002E8AB9 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -116,9 +116,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C036C78C1907C7FE002E8AB9 /* ezject */ = {
+		C036C78C1907C7FE002E8AB9 /* Ezject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C036C7BE1907C7FE002E8AB9 /* Build configuration list for PBXNativeTarget "ezject" */;
+			buildConfigurationList = C036C7BE1907C7FE002E8AB9 /* Build configuration list for PBXNativeTarget "Ezject" */;
 			buildPhases = (
 				C036C7891907C7FE002E8AB9 /* Sources */,
 				C036C78A1907C7FE002E8AB9 /* Frameworks */,
@@ -128,9 +128,9 @@
 			);
 			dependencies = (
 			);
-			name = ezject;
+			name = Ezject;
 			productName = ezject;
-			productReference = C036C78D1907C7FE002E8AB9 /* ezject.app */;
+			productReference = C036C78D1907C7FE002E8AB9 /* Ezject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -143,7 +143,7 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = tfunato;
 			};
-			buildConfigurationList = C036C7881907C7FE002E8AB9 /* Build configuration list for PBXProject "ezject" */;
+			buildConfigurationList = C036C7881907C7FE002E8AB9 /* Build configuration list for PBXProject "Ezject" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -156,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C036C78C1907C7FE002E8AB9 /* ezject */,
+				C036C78C1907C7FE002E8AB9 /* Ezject */,
 			);
 		};
 /* End PBXProject section */
@@ -284,7 +284,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -295,9 +295,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ezject/ezject-Prefix.pch";
-				INFOPLIST_FILE = "ezject/ezject-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ezject/Ezject-Prefix.pch";
+				INFOPLIST_FILE = ezject/Ezject.Info.plist;
+				PRODUCT_NAME = Ezject;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -308,9 +308,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ezject/ezject-Prefix.pch";
-				INFOPLIST_FILE = "ezject/ezject-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ezject/Ezject-Prefix.pch";
+				INFOPLIST_FILE = ezject/Ezject.Info.plist;
+				PRODUCT_NAME = Ezject;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -318,7 +318,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C036C7881907C7FE002E8AB9 /* Build configuration list for PBXProject "ezject" */ = {
+		C036C7881907C7FE002E8AB9 /* Build configuration list for PBXProject "Ezject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C036C7BC1907C7FE002E8AB9 /* Debug */,
@@ -327,7 +327,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C036C7BE1907C7FE002E8AB9 /* Build configuration list for PBXNativeTarget "ezject" */ = {
+		C036C7BE1907C7FE002E8AB9 /* Build configuration list for PBXNativeTarget "Ezject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C036C7BF1907C7FE002E8AB9 /* Debug */,
