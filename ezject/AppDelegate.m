@@ -56,8 +56,6 @@
     [task setStandardOutput: pipe];
     [task launch];
     
-    [task waitUntilExit];
-    
     NSData* data = [[[task standardOutput] fileHandleForReading] readDataToEndOfFile];
     NSString *result = [[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding] stringByTrimmingCharactersInSet:[NSCharacterSet newlineCharacterSet]];
     NSLog(@"%@", result);
@@ -73,7 +71,6 @@
     [task setArguments: [NSArray arrayWithObjects: @"mountDisk", @"disk1", nil]];
     [task setStandardOutput: pipe];
     [task launch];
-    
     [task waitUntilExit];
     
     NSData* data = [[[task standardOutput] fileHandleForReading] readDataToEndOfFile];
@@ -83,7 +80,8 @@
     NSUserNotification *notification = [[NSUserNotification alloc] init];
     notification.title = @"Awake!";
     notification.informativeText = result;
-    [[NSUserNotificationCenter defaultUserNotificationCenter] deliverNotification:notification];
+    [notification setDeliveryDate:[NSDate dateWithTimeInterval:5 sinceDate:[NSDate date]]];
+    [[NSUserNotificationCenter defaultUserNotificationCenter] scheduleNotification:notification];
 
 }
 @end
